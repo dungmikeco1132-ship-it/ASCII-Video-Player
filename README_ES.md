@@ -1,72 +1,57 @@
-# 🎬 Reproductor de Video ASCII v5 — Edición Ultimate (Fork Español)
+# 🎬 ASCII Player Video Creator — V5 Oficial
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
-![NumPy](https://img.shields.io/badge/NumPy-1.20+-blue.svg)
-![Estado](https://img.shields.io/badge/Versi%C3%B3n-Fork%20Espa%C3%B1ol-orange.svg)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)
-![Open Source](https://img.shields.io/badge/Open%20Source-S%C3%AD-blue.svg)
+![Pillow](https://img.shields.io/badge/Pillow-Latest-orange.svg)
+![Status](https://img.shields.io/badge/Version-Official%20V5-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Este es un reproductor de video basado en texto (CLI) que renderiza cada cuadro de video en arte ASCII de alta calidad directamente en tu terminal. Esta versión es un **fork mejorado y traducido al español** basado en el trabajo original de @stepanussaruran.
-
----
-
-## ✨ Características de este Fork
-
-- **🌍 Traducción Completa**: Interfaz, mensajes, menús interactivos y ayuda totalmente en español.
-- **🖥️ Ajuste Automático Dinámico**: La imagen se adapta automáticamente al ancho **y alto** de tu terminal en tiempo real, manteniendo la relación de aspecto correcta.
-- **🌈 Modo Color/B&W**: Soporte para color ANSI de 24 bits para una experiencia visual premium o modo blanco y negro para máximo rendimiento.
-- **🕹️ Modo Interactivo Mejorado**: Preguntas guiadas al iniciar para configurar color, bucle, ajuste y saltos de cuadro.
-- **⚡ Decodificación en Segundo Plano**: Uso de hilos (threading) para una reproducción fluida sin tirones.
-- **🔄 Modo Bucle**: Opción para repetir el video automáticamente.
-- **📍 Barra de Estado Fija**: La barra de progreso se mantiene en la parte inferior de la ventana para evitar parpadeos y desorden visual.
+Una suite profesional de creación de video basada en texto (CLI) que te permite reproducir y **exportar** cualquier video a arte ASCII de alta calidad. Esta es la versión oficial V5, que incluye un flujo interactivo completo y soporte multi-idioma.
 
 ---
 
-## 🛠️ Requisitos del Sistema
+## ✨ Características Principales
 
-Antes de ejecutar, asegúrate de tener instaladas las librerías necesarias:
+- **📽️ Motor de Exportación MP4**: Convierte cualquier video en un MP4 de estilo ASCII. Elige entre guardar solo el video o conservar cada frame individual en PNG.
+- **🌍 Soporte Multi-Idioma**: Selector de idioma interactivo al inicio (Español, Inglés, Francés, Portugués, Alemán e Indonesio).
+- **🖥️ Auto-Ajuste Proporcional**: Escalado en tiempo real para adaptarse a tu ventana de terminal (tanto ancho como alto) manteniendo la relación de aspecto.
+- **🎨 Fondos Personalizados**: Elige el color de fondo para tus exportaciones (Negro, Blanco, Azul o cualquier color Hex personalizado).
+- **🌈 Color ANSI de 24 bits**: Coloreado de caracteres de alta fidelidad para una experiencia visual premium.
+- **⚡ Rendimiento Optimizado**: Decodificación en segundo plano y procesamiento vectorizado para una reproducción fluida.
+- **🖋️ Set de Alta Densidad**: Conjunto de caracteres expandido para sombras profundas y detalles intrincados.
+
+---
+
+## 🛠️ Instalación
+
+Asegúrate de tener instaladas las dependencias necesarias:
 
 ```bash
-pip install opencv-python numpy
+pip install opencv-python numpy Pillow
 ```
-*(Si tienes problemas con las versiones en Windows, prueba con: `python -m pip install opencv-python numpy`)*
 
 ---
 
 ## 🚀 Cómo Usar
 
-### 1. Modo Interactivo (Recomendado)
-Simplemente ejecuta el script y sigue las instrucciones en pantalla:
+Simplemente ejecuta el script y sigue el proceso interactivo guiado:
+
 ```bash
-python ASCII_v5_ultimate_ES.py
+python ASCII_v5_official.py
 ```
 
-### 2. Modo Línea de Comandos
-Para usuarios avanzados que prefieren usar flags:
-```bash
-# Reproducir con color y ajuste automático
-python ASCII_v5_ultimate_ES.py mi_video.mp4 --color
-
-# Desactivar ajuste automático y fijar ancho a 150
-python ASCII_v5_ultimate_ES.py mi_video.mp4 --no-fit --width 150
-
-# Modo informativo (solo ver detalles del video)
-python ASCII_v5_ultimate_ES.py mi_video.mp4 --info
-```
+### Flujo:
+1. **Logo e Idioma**: Elige tu idioma preferido.
+2. **Configuración**: Establece la ruta del video, modo de color, ancho y salto de cuadros.
+3. **Previsualización**: Mira la versión ASCII en tu terminal.
+4. **Exportación**: Tras la previsualización, elige si quieres exportar el resultado a un archivo de video MP4.
+5. **Ciclo**: ¡Procesa otro video inmediatamente después de terminar!
 
 ---
-
-## ⌨️ Controles
-- **Ctrl + C**: Detiene la reproducción de forma segura y restaura el cursor de la terminal.
 
 ## 💡 Créditos
-- **Creador Original**: [stepanussaruran](https://github.com/stepanussaruran)
-- **Traducción y Mejoras**: Nicolas Romero (coralgamer) & Gemini AI.
-
+- **Núcleo Original**: [stepanussaruran](https://github.com/stepanussaruran)
+- **Mejoras V5 y Lógica de Exportación**: Nicolas Romero ([coralgamer](https://github.com/nicolas-romero))
 
 ## ⚖️ Licencia
-Este proyecto es **Código Abierto** y se distribuye bajo la licencia **MIT**. Eres libre de usarlo, modificarlo y distribuirlo, siempre que mantengas los créditos originales.
-
----
-*Para la versión en inglés, consulta [README_EN.md](README_EN.md).*
+Distribuido bajo la **Licencia MIT**. Consulta `LICENSE` para más información.

@@ -1,72 +1,60 @@
-# 🎬 ASCII Video Player v5 — Ultimate Edition (Spanish Fork)
+# 🎬 ASCII Player Video Creator — V5 Official
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
-![NumPy](https://img.shields.io/badge/NumPy-1.20+-blue.svg)
-![Status](https://img.shields.io/badge/Version-Spanish%20Fork-orange.svg)
+![Pillow](https://img.shields.io/badge/Pillow-Latest-orange.svg)
+![Status](https://img.shields.io/badge/Version-Official%20V5-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-blue.svg)
 
-A text-based (CLI) video player that renders every video frame into high-quality ASCII art directly in your terminal. This version is an **enhanced and translated fork** based on the original work by @stepanussaruran.
-
----
-
-## ✨ Features of this Fork
-
-- **🖥️ Dynamic Auto-Fit**: The image automatically scales to both terminal width **and height** in real-time, maintaining the correct aspect ratio.
-- **🌈 Color/B&W Mode**: Support for 24-bit ANSI color for a premium visual experience or black and white mode for maximum performance.
-- **🕹️ Enhanced Interactive Mode**: Guided setup on startup for color, looping, auto-fit, and frame skipping.
-- **⚡ Background Decoding**: Uses threading for smooth playback without stuttering.
-- **🔄 Loop Mode**: Option to repeat the video automatically.
-- **📍 Pinned Status Bar**: The progress bar stays at the bottom of the window to prevent flickering and visual clutter.
-- **🌍 Spanish Translation**: Interface, messages, and help are fully translated into Spanish for native speakers.
+A professional text-based (CLI) video creation suite that allows you to play and **export** any video into high-quality ASCII art. This version is the official V5 release, featuring a complete interactive workflow and multi-language support.
 
 ---
 
-## 🛠️ System Requirements
+## ✨ Key Features
 
-Before running, ensure you have the necessary libraries installed:
+- **📽️ MP4 Export Engine**: Convert any video into an ASCII-styled MP4. Choose between saving only the video or keeping every individual PNG frame.
+- **🌍 Multi-Language Support**: Interactive language selector on startup (English, Spanish, French, Portuguese, German, and Indonesian).
+- **🖥️ Proportional Auto-Fit**: Real-time scaling to fit your terminal window (both width and height) while maintaining aspect ratio.
+- **🎨 Custom Backgrounds**: Choose the background color for your exports (Black, White, Blue, or any Custom Hex color).
+- **🌈 24-bit ANSI Color**: High-fidelity character coloring for a premium visual experience.
+- **⚡ Performance Optimized**: Background decoding and vectorized processing for smooth playback.
+- **🖋️ High-Density Set**: Expanded character set for deep shading and intricate details.
+
+---
+
+## 🛠️ Installation
+
+Ensure you have the required dependencies:
 
 ```bash
-pip install opencv-python numpy
+pip install opencv-python numpy Pillow
 ```
-*(On Windows, if you encounter version issues, try: `python -m pip install opencv-python numpy`)*
 
 ---
 
 ## 🚀 How to Use
 
-### 1. Interactive Mode (Recommended)
-Simply run the script and follow the on-screen instructions:
+Simply run the script and follow the guided interactive process:
+
 ```bash
-python ASCII_v5_ultimate_ES.py
+python ASCII_v5_official.py
 ```
 
-### 2. Command-Line Mode
-For power users who prefer using flags:
-```bash
-# Play with color and auto-fit
-python ASCII_v5_ultimate_ES.py my_video.mp4 --color
-
-# Disable auto-fit and set a fixed width of 150
-python ASCII_v5_ultimate_ES.py my_video.mp4 --no-fit --width 150
-
-# Info mode (view video details only)
-python ASCII_v5_ultimate_ES.py my_video.mp4 --info
-```
+### Flow:
+1. **Logo & Language**: Choose your preferred language.
+2. **Configuration**: Set video path, color mode, width, and frame skipping.
+3. **Preview**: Watch the ASCII version in your terminal.
+4. **Export**: After previewing, choose if you want to export the result to an MP4 video file.
+5. **Cycle**: Process another video immediately after finishing!
 
 ---
-
-## ⌨️ Controls
-- **Ctrl + C**: Gracefully stops playback and restores the terminal cursor.
 
 ## 💡 Credits
-- **Original Creator**: [stepanussaruran](https://github.com/stepanussaruran)
-- **Translation and Enhancements**: Nicolas Romero (coralgamer) & Gemini AI.
-
+- **Original Core**: [stepanussaruran](https://github.com/stepanussaruran)
+- **V5 Enhancements & Export Logic**: Nicolas Romero ([coralgamer](https://github.com/nicolas-romero))
 
 ## ⚖️ License
-This project is **Open Source** and distributed under the **MIT License**. You are free to use, modify, and distribute it, as long as you maintain the original credits.
+Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
-*Para la versión en español, consulta [README_ES.md](README_ES.md).*
+*Language Versions: [Español](README_ES.md) | [Français](README_FR.md) | [Português](README_PT.md) | [Deutsch](README_DE.md) | [Indonesian](README_ID.md)*
