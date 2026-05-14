@@ -5,6 +5,7 @@
 ![Pillow](https://img.shields.io/badge/Pillow-Latest-orange.svg)
 ![Status](https://img.shields.io/badge/Version-Official%20V5-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android-blue.svg)
 
 Suite kreasi video berbasis teks (CLI) profesional yang memungkinkan Anda memutar dan **mengekspor** video apa pun ke dalam seni ASCII berkualitas tinggi. Versi ini adalah rilis resmi V5, menampilkan alur kerja interaktif yang lengkap dan dukungan multi-bahasa.
 

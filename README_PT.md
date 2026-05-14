@@ -5,6 +5,7 @@
 ![Pillow](https://img.shields.io/badge/Pillow-Latest-orange.svg)
 ![Status](https://img.shields.io/badge/Version-Official%20V5-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android-blue.svg)
 
 Uma suíte profissional de criação de vídeo baseada em texto (CLI) que permite reproduzir e **exportar** qualquer vídeo em arte ASCII de alta qualidade. Esta versão é o lançamento oficial V5, apresentando um fluxo de trabalho interativo completo e suporte a vários idiomas.
 

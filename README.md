@@ -9,7 +9,11 @@
 ![Pillow](https://img.shields.io/badge/Pillow-Latest-orange.svg)
 ![Status](https://img.shields.io/badge/Version-Official%20V5-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+<<<<<<< HEAD
 >>>>>>> 8a50b58 (V5 Official Release: Multi-language support, MP4 export, and improved interactive workflow)
+=======
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android-blue.svg)
+>>>>>>> a6e4367 (Update Readmes with Android support badge and finalize documentation)
 
 A professional text-based (CLI) video creation suite that allows you to play and **export** any video into high-quality ASCII art. This version is the official V5 release, featuring a complete interactive workflow and multi-language support.
 
